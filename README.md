@@ -72,7 +72,7 @@ brew update && brew upgrade && brew cleanup
        source ${ZDOTDIR:-${HOME}}/.zlogin
 
 
-### git
+### Git
 
 git 是代码管理工具。
 
@@ -88,7 +88,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 git config --global user.name "your_name"
 ```
 ```bash
-git config --global user.name "your_email@example.com"
+git config --global user.email "your_email@example.com"
 ```
 
 ## 必备软件
