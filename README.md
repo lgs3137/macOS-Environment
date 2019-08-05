@@ -1,5 +1,11 @@
 # macOS 环境
 
+## 任意来源
+
+```bash
+sudo spctl --master-disable
+```
+
 ## Homebrew
 
 Homebrew 是 macOS 上的一个包管理器，使用 Homebrew 安装 Apple 没有预装但 [你需要的东西](https://formulae.brew.sh/formula/)。
@@ -124,12 +130,18 @@ brew cask install WeChat QQ IINA
 ```bash
 brew install htop nload wget aria2 xz
 ```
-### V2RayX
+### V2RayX、V2rayU
 
 [V2RayX](https://github.com/Cenmrev/V2RayX) 是一个 macOS 开源的你懂得的软件
 
 ```bash
 brew cask install v2rayx
+```
+
+[V2RayU](https://github.com/yanue/V2rayU) 是一个 macOS 开源的你懂得的软件
+
+```bash
+brew cask install v2rayu
 ```
 
 ### Tencent Lemon
